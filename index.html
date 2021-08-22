@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="screen">
+        <div id="data-import-div">
+            <input id="file-input" type="file">
+            <button id="load-file-button">Carregar</button>
+        </div>
+        <div id="stats">
+            <div id="cards-total-div">
+                <p id="cards-total-label">Total: </p>
+                <p id="cards-total-counter">0</p>
+            </div>
+            <div id="cards-remaining-div">
+                <p id="cards-remaining-label">Faltante: </p>
+                <p id="cards-remaining-counter">0</p>
+            </div>
+        </div>
+        <div id="question-card">
+            <p id="question-card-content"></p>
+        </div>
+        <div id="answer-card">
+            <p id="answer-card-content"></p>
+        </div>
+        <div id="buttons">
+            <button id="reveal-button">Revelar</button>
+            <button id="next-button">Próximo</button>
+        </div>
+    </div>
+</body>
